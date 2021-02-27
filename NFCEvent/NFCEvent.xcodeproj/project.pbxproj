@@ -49,6 +49,7 @@
 		C9B2C49D25EB0944008375C0 /* NFCEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B2C4A125EB0944008375C0 /* NFCEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCEventUITests.swift; sourceTree = "<group>"; };
 		C9B2C4A325EB0944008375C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B2C4B225EB0A45008375C0 /* NFCEvent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCEvent.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		C9B2C47E25EB0942008375C0 /* NFCEvent */ = {
 			isa = PBXGroup;
 			children = (
+				C9B2C4B225EB0A45008375C0 /* NFCEvent.entitlements */,
 				C9B2C47F25EB0942008375C0 /* AppDelegate.swift */,
 				C9B2C48125EB0942008375C0 /* SceneDelegate.swift */,
 				C9B2C48325EB0942008375C0 /* ViewController.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCEvent/NFCEvent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVQX7ZW685;
 				INFOPLIST_FILE = NFCEvent/Info.plist;
@@ -455,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCEvent/NFCEvent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVQX7ZW685;
 				INFOPLIST_FILE = NFCEvent/Info.plist;
